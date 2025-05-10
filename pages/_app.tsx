@@ -18,8 +18,8 @@ const geist = Geist({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${inter.className} ${geist.className}`}>
+    <div className={`${inter.className} ${geist.className}`}>
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }

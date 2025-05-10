@@ -28,7 +28,7 @@ function Layout({ children, meta }: Props) {
       </Head>
 
       <Header />
-      {children}
+      <main>{children}</main>
     </>
   );
 }
