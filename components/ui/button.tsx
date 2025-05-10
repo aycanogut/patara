@@ -7,7 +7,7 @@ import cn from '@/lib/utils/cn';
 
 const buttonVariants = cva(
   cn(
-    'inline-flex cursor-pointer items-center justify-center gap-2 text-xs md:text-sm whitespace-nowrap transition-colors',
+    'inline-flex max-w-min cursor-pointer items-center justify-center gap-2 text-xs whitespace-nowrap transition-colors md:text-sm',
     'focus-visible:ring-text-secondary focus-visible:ring-2 focus-visible:outline-none',
     'disabled:pointer-events-none disabled:opacity-50',
     '[&_svg]:pointer-events-none [&_svg]:size-6 [&_svg]:shrink-0'
@@ -20,6 +20,7 @@ const buttonVariants = cva(
       },
       size: {
         default: 'rounded-xl p-2 lg:px-8 lg:py-2.5',
+        md: 'rounded-2xl p-2 lg:px-4 lg:py-3.5',
         tight: 'p-0 md:p-0 lg:p-0',
         // icon: 'TODO'
       },
