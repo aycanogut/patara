@@ -11,7 +11,6 @@ interface InputProps extends ComponentProps<'input'> {
     name: IconName;
     className?: string;
   };
-
   error?: string;
 }
 
