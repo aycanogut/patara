@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ReferralCard from '@/components/ReferralCard';
+import ReferralCard from '@/components/referral-card';
 import Layout from '@/layout';
 
 export default function Home() {
