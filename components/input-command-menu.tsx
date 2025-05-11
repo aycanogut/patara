@@ -34,7 +34,8 @@ function InputCommandMenu() {
       <Button
         onClick={() => setOpen(true)}
         variant="ghost"
-        className="bg-background-primary hover:bg-background-secondary hover:border-border-primary absolute top-1/2 right-2 h-6 w-8 -translate-y-1/2 rounded-lg border border-transparent px-1 py-2"
+        size="xs"
+        className="bg-background-primary hover:bg-background-secondary hover:border-border-primary absolute top-1/2 right-2 h-6 w-8 -translate-y-1/2 rounded-lg border border-transparent"
       >
         <kbd className="font-geist text-text-secondary text-xs font-medium">⌘K</kbd>
       </Button>
