@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 function ReferralCard() {
   return (
-    <article className="bg-background-primary border-border-primary group mx-3 flex max-w-[29.125rem] flex-col items-center gap-10 overflow-hidden rounded-3xl border px-4 py-10 sm:mx-0 md:gap-20">
+    <article className="bg-background-primary border-border-default group mx-3 flex max-w-[29.125rem] flex-col items-center gap-10 overflow-hidden rounded-3xl border px-4 py-10 sm:mx-0 md:gap-20">
       <OrbitAvatars />
 
       <div className="flex flex-col items-center gap-10">
