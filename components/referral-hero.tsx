@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 
 function ReferralHero() {
   return (
-    <div className="bg-background-primary mx-auto flex max-w-[38.125rem] flex-col items-center gap-10 rounded-4xl px-4 py-6 md:gap-16 md:p-10 lg:min-h-[25rem] lg:max-w-[65.125rem] lg:flex-row lg:gap-[8.5rem] lg:pr-[4.375rem]">
+    <div className="bg-background-primary flex max-w-[38.125rem] flex-col items-center gap-10 rounded-4xl px-4 py-6 md:gap-16 md:p-10 lg:min-h-[25rem] lg:max-w-full lg:flex-row lg:pr-[4.375rem] xl:w-[65.25rem] 2xl:gap-[8.5rem]">
       <div className="flex flex-col gap-4 lg:h-full lg:min-w-[30rem] lg:gap-[4.5rem]">
         <header className="flex flex-col gap-4 lg:gap-6">
           <h1 className="font-inter text-text-primary text-3xl font-medium md:text-[2rem] md:leading-3">Refer and Earn</h1>
