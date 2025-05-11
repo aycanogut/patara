@@ -28,7 +28,7 @@ function Layout({ children, meta }: Props) {
       </Head>
 
       <Header />
-      <main className="bg-background-default h-[calc(100vh-4rem)] lg:h-[calc(100vh-4rem)]">{children}</main>
+      <main className="bg-background-default h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)]">{children}</main>
     </>
   );
 }
