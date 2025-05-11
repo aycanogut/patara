@@ -1,8 +1,7 @@
-import React from 'react';
-
-import BackgroundAvatars from '@/components/background-avatars';
-import ReferralCard from '@/components/referral-card';
 import Layout from '@/layout';
+
+import BackgroundAvatars from './(home)/background-avatars';
+import ReferralCard from './(home)/referral-card';
 
 export default function Home() {
   return (

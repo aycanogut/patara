@@ -1,7 +1,7 @@
-import ReferralHero from '@/components/referral-hero';
 import Layout from '@/layout';
 
 import ReferralCards from './ReferralCards';
+import ReferralHero from './referral-hero';
 
 function ReferralConnect() {
   return (
