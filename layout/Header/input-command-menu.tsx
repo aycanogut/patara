@@ -4,8 +4,8 @@ import { useRouter } from 'next/navigation';
 
 import { CommandDialog, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem } from '@/components/ui/command';
 
-import { Button } from './ui/button';
-import { Input } from './ui/input';
+import { Button } from '../../components/ui/button';
+import { Input } from '../../components/ui/input';
 
 function InputCommandMenu() {
   const [open, setOpen] = useState(false);

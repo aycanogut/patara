@@ -1,7 +1,7 @@
 import { DynamicIcon } from 'lucide-react/dynamic';
 
-import OrbitAvatars from './orbit-avatars/orbit-avatars';
-import { Button } from './ui/button';
+import OrbitAvatars from '../../components/orbit-avatars/orbit-avatars';
+import { Button } from '../../components/ui/button';
 
 function ReferralHero() {
   return (

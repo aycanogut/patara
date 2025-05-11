@@ -1,9 +1,10 @@
 import { DynamicIcon } from 'lucide-react/dynamic';
 
-import BrandLogo from '@/components/brand-logo';
-import InputCommandMenu from '@/components/input-command-menu';
 import { Button } from '@/components/ui/button';
-import UserAuth from '@/components/user-auth';
+
+import BrandLogo from './brand-logo';
+import InputCommandMenu from './input-command-menu';
+import UserAuth from './user-auth';
 
 function Header() {
   return (

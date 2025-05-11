@@ -3,9 +3,9 @@ import { usePathname } from 'next/navigation';
 
 import { DynamicIcon } from 'lucide-react/dynamic';
 
-import { Avatar, AvatarImage } from './ui/avatar';
-import { Badge } from './ui/badge';
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from './ui/dropdown-menu';
+import { Avatar, AvatarImage } from '../../components/ui/avatar';
+import { Badge } from '../../components/ui/badge';
+import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '../../components/ui/dropdown-menu';
 
 function UserAuth() {
   const pathname = usePathname();
