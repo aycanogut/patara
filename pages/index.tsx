@@ -1,14 +1,18 @@
 import React from 'react';
 
+import BackgroundAvatars from '@/components/background-avatars';
 import ReferralCard from '@/components/referral-card';
 import Layout from '@/layout';
 
 export default function Home() {
   return (
     <Layout meta={{ title: 'Anasayfa' }}>
-      <section className="flex h-full items-center justify-center">
-        <ReferralCard />
-      </section>
+      <div className="relative h-full w-full">
+        <section className="relative z-10 flex h-full items-center justify-center">
+          <BackgroundAvatars />
+          <ReferralCard />
+        </section>
+      </div>
     </Layout>
   );
 }
