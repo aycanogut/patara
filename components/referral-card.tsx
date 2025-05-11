@@ -1,5 +1,7 @@
+import Link from 'next/link';
+
 import OrbitAvatars from '@/components/orbit-avatars/orbit-avatars';
-import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 
 function ReferralCard() {
   return (
@@ -14,7 +16,9 @@ function ReferralCard() {
           </p>
         </header>
 
-        <Button size="md">Connect/Sign in</Button>
+        <Link href="/referral-connect">
+          <Badge size="md">Connect/Sign in</Badge>
+        </Link>
       </div>
     </article>
   );
