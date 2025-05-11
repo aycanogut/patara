@@ -6,7 +6,7 @@ import Layout from '@/layout';
 
 export default function Home() {
   return (
-    <Layout meta={{ title: 'Anasayfa' }}>
+    <Layout meta={{ title: 'Home' }}>
       <section className="relative z-10 flex h-full items-center justify-center">
         <BackgroundAvatars />
         <ReferralCard />

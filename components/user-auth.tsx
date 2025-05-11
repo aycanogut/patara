@@ -30,9 +30,9 @@ function UserAuth() {
         align="end"
         sideOffset={12}
       >
-        <DropdownMenuItem className="text-text-primary min-w-full cursor-pointer">Profil</DropdownMenuItem>
+        <DropdownMenuItem className="text-text-primary min-w-full cursor-pointer">Profile</DropdownMenuItem>
         <DropdownMenuItem className="text-text-primary min-w-full cursor-pointer">
-          <Link href="/">Çıkış</Link>
+          <Link href="/">Logout</Link>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

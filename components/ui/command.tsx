@@ -17,8 +17,8 @@ function Command({ className, ...props }: React.ComponentProps<typeof CommandPri
 }
 
 function CommandDialog({
-  title = 'CMD+K',
-  description = 'Bir komut arayın veya arama yapın...',
+  title = 'Patara',
+  description = 'Search for accounts, platforms, NFTs, tokens',
   children,
   ...props
 }: React.ComponentProps<typeof Dialog> & {
