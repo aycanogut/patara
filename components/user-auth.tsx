@@ -19,7 +19,7 @@ function UserAuth() {
           <AvatarImage src="/user.svg" />
         </Avatar>
 
-        <span className="text-text-primary font-geist hidden text-sm font-semibold sm:block">@patara.sui</span>
+        <span className="text-text-primary font-geist hidden text-sm font-semibold xl:block">@patara.sui</span>
 
         <DynamicIcon
           name="chevron-down"
