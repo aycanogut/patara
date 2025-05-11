@@ -28,26 +28,26 @@ function Header() {
 
       <InputCommandMenu />
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1.5 sm:gap-2">
         <Button
           variant="ghost"
           size="sm"
-          className="bg-background-secondary hover:bg-background-secondary/80 size-10"
+          className="bg-background-secondary hover:bg-background-secondary/80 size-8 sm:size-10"
         >
           <DynamicIcon
             name="bell"
-            className="text-text-primary size-6"
+            className="text-text-primary size-4 sm:size-6"
           />
         </Button>
 
         <Button
           variant="ghost"
           size="sm"
-          className="bg-background-secondary hover:bg-background-secondary/80 size-10"
+          className="bg-background-secondary hover:bg-background-secondary/80 size-8 sm:size-10"
         >
           <DynamicIcon
             name="settings"
-            className="text-text-primary size-6"
+            className="text-text-primary size-4 sm:size-6"
           />
         </Button>
 
