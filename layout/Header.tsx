@@ -27,7 +27,32 @@ function Header() {
       </div>
 
       <InputCommandMenu />
-      <Button emphasis="strong">Connect/Sign in</Button>
+
+      <div className="flex items-center gap-2">
+        <Button
+          variant="ghost"
+          size="sm"
+          className="bg-background-secondary hover:bg-background-secondary/80 size-10"
+        >
+          <DynamicIcon
+            name="bell"
+            className="text-text-primary size-6"
+          />
+        </Button>
+
+        <Button
+          variant="ghost"
+          size="sm"
+          className="bg-background-secondary hover:bg-background-secondary/80 size-10"
+        >
+          <DynamicIcon
+            name="settings"
+            className="text-text-primary size-6"
+          />
+        </Button>
+
+        <Button emphasis="strong">Connect/Sign in</Button>
+      </div>
     </header>
   );
 }
