@@ -5,25 +5,20 @@ import { cva, type VariantProps } from 'class-variance-authority';
 
 import cn from '@/lib/utils/cn';
 
-const buttonVariants = cva(
+const badgeVariants = cva(
   cn(
     'inline-flex max-w-min cursor-pointer items-center justify-center gap-2 text-xs whitespace-nowrap transition-colors sm:text-sm',
     'focus-visible:ring-text-secondary focus-visible:ring-2 focus-visible:outline-none',
-    'disabled:pointer-events-none disabled:opacity-50',
-    '[&_svg]:pointer-events-none [&_svg]:size-6 [&_svg]:shrink-0'
+    'disabled:pointer-events-none disabled:opacity-50'
   ),
   {
     variants: {
       variant: {
         default: 'bg-text-brand text-text-primary hover:bg-text-brand/80',
-        ghost: 'bg-transparent text-text-primary',
       },
       size: {
         default: 'rounded-lg p-2 lg:rounded-xl lg:px-8 lg:py-2.5',
-        xs: 'rounded-lg py-1 px-2',
-        sm: 'rounded-lg sm:rounded-xl p-1 sm:p-2',
         md: 'rounded-xl p-2 lg:rounded-2xl lg:px-4 lg:py-3.5',
-        tight: 'p-0 md:p-0 lg:p-0',
       },
       emphasis: {
         normal: 'font-geist font-medium',
@@ -38,22 +33,16 @@ const buttonVariants = cva(
   }
 );
 
-export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
-  asChild?: boolean;
-}
-
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({ className, variant, size, emphasis, asChild = false, ...props }, ref) => {
-  const Comp = asChild ? Slot : 'button';
+function Badge({ className, variant, asChild = false, ...props }: React.ComponentProps<'span'> & VariantProps<typeof badgeVariants> & { asChild?: boolean }) {
+  const Comp = asChild ? Slot : 'span';
 
   return (
     <Comp
-      className={cn(buttonVariants({ variant, size, emphasis, className }))}
-      ref={ref}
+      data-slot="badge"
+      className={cn(badgeVariants({ variant }), className)}
       {...props}
     />
   );
-});
+}
 
-Button.displayName = 'Button';
-
-export { Button, buttonVariants };
+export { Badge, badgeVariants };
