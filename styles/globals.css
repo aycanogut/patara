@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
 @theme inline {
   --color-background-default: #0c0c0c;
   --color-background-primary: #181818;
@@ -7,6 +10,7 @@
   --color-text-secondary: #808080;
   --color-text-brand: #006eff;
   --color-border-primary: #383838;
+  --color-border-default: #282828;
 
   --font-inter: var(--font-inter);
   --font-geist: var(--font-geist);
