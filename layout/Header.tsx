@@ -3,6 +3,7 @@ import { DynamicIcon } from 'lucide-react/dynamic';
 import BrandLogo from '@/components/brand-logo';
 import InputCommandMenu from '@/components/input-command-menu';
 import { Button } from '@/components/ui/button';
+import UserAuth from '@/components/user-auth';
 
 function Header() {
   return (
@@ -51,7 +52,7 @@ function Header() {
           />
         </Button>
 
-        <Button emphasis="strong">Connect/Sign in</Button>
+        <UserAuth />
       </div>
     </header>
   );
