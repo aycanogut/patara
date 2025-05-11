@@ -16,7 +16,7 @@ function OrbitBackground({
   children?: ReactNode;
 }) {
   const center = size / 2;
-  const innerRadius = 64.5;
+  const innerRadius = 67.5;
 
   return (
     <div

@@ -18,13 +18,16 @@ const avatars = [
 function OrbitAvatars() {
   const size = 300;
   const center = size / 2;
-  const radius = 130;
+  const gap = 15;
+  const radius = 135;
+  const avatarSize = 52;
+  const avatarOffset = avatarSize / 2;
 
   return (
     <OrbitBackground
       size={size}
       rings={5}
-      gap={15}
+      gap={gap}
       color="#FFFFFF1F"
     >
       <div className="bg-background-default/5 flex size-[8.125rem] rounded-full">
@@ -43,8 +46,8 @@ function OrbitAvatars() {
       >
         {avatars.map(item => {
           const rad = (item.angle * Math.PI) / 180;
-          const x = center + radius * Math.cos(rad) - 28;
-          const y = center + radius * Math.sin(rad) - 28;
+          const x = center + radius * Math.cos(rad) - avatarOffset;
+          const y = center + radius * Math.sin(rad) - avatarOffset;
 
           return (
             <div
