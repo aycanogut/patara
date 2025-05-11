@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 function Header() {
   return (
     <header className="bg-background-default flex h-16 items-center justify-between gap-10 p-2 md:h-20 md:p-5">
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 lg:min-w-[16.75rem]">
         <Button
           variant="ghost"
           size="tight"
