@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+import { useRouter } from 'next/navigation';
+
 import { CommandDialog, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem } from '@/components/ui/command';
 
 import { Button } from './ui/button';
@@ -7,6 +9,8 @@ import { Input } from './ui/input';
 
 function InputCommandMenu() {
   const [open, setOpen] = useState(false);
+
+  const { push } = useRouter();
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -44,13 +48,27 @@ function InputCommandMenu() {
         open={open}
         onOpenChange={setOpen}
       >
-        <CommandInput placeholder="Bir komut arayın veya arama yapın..." />
+        <CommandInput placeholder="Search for accounts, platforms, NFTs, tokens" />
         <CommandList>
-          <CommandEmpty>Bir sonuç bulunamadı.</CommandEmpty>
-          <CommandGroup heading="Öneriler">
-            <CommandItem>Anasayfa</CommandItem>
-            <CommandItem>Hakkımızda</CommandItem>
-            <CommandItem>İletişim</CommandItem>
+          <CommandEmpty>No results found.</CommandEmpty>
+          <CommandGroup
+            heading="Suggestions"
+            className="p-2"
+          >
+            <CommandItem
+              onSelect={() => {
+                push('/');
+              }}
+            >
+              Home
+            </CommandItem>
+            <CommandItem
+              onSelect={() => {
+                push('/referral-connect');
+              }}
+            >
+              Referral Connect
+            </CommandItem>
           </CommandGroup>
         </CommandList>
       </CommandDialog>
