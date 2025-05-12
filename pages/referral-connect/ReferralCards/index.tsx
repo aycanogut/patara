@@ -1,6 +1,6 @@
 import InfoCard, { InfoCardProps } from './info-card';
 
-export const mockData: InfoCardProps[] = [
+const mockData: InfoCardProps[] = [
   {
     id: 1,
     label: 'Total Earned Fee',
