@@ -27,7 +27,7 @@ function InputCommandMenu() {
   return (
     <div className="relative hidden lg:block">
       <Input
-        className="h-10 w-80 rounded-xl border p-2 pr-24 pl-10 lg:w-[29rem]"
+        className="h-10 w-80 rounded-xl border p-2 pr-24 pl-10 lg:w-96 xl:w-[29rem]"
         placeholder="Enter Accounts, Platforms, NFTs, Token"
         prependIconProps={{
           name: 'search',

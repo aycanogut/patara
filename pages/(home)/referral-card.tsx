@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 
 function ReferralCard() {
   return (
-    <article className="bg-background-primary border-border-default group z-10 mx-3 flex max-w-[29.125rem] flex-col items-center gap-5 overflow-hidden rounded-3xl border px-2 py-5 sm:mx-0 md:gap-20 md:px-4 md:py-10">
+    <article className="md:bg-background-primary md:border-border-default group z-10 mx-3 flex max-w-[29.125rem] flex-col items-center gap-5 overflow-hidden rounded-3xl border border-transparent px-2 py-10 sm:mx-0 md:gap-20 md:px-4">
       <OrbitAvatars />
 
       <div className="flex flex-col items-center gap-5 md:gap-10">
