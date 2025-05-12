@@ -28,7 +28,7 @@ function Layout({ children, meta }: Props) {
       </Head>
 
       <Header />
-      <main className="bg-background-default h-dvh">{children}</main>
+      <main className="bg-background-default h-full">{children}</main>
     </>
   );
 }
