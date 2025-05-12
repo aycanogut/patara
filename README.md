@@ -7,7 +7,7 @@ Patara, modern web teknolojileri kullanılarak geliştirilmiş bir web uygulamas
 - Modern ve responsive tasarım
 - TypeScript ile tip güvenliği
 - Tailwind CSS ile özelleştirilebilir UI
-- Radix UI bileşenleri ile erişilebilir arayüz
+- shadcn bileşenleri ile erişilebilir arayüz
 - ESLint ve Prettier ile kod kalitesi
 
 ## 🛠️ Kullanılan Teknolojiler
@@ -16,7 +16,7 @@ Patara, modern web teknolojileri kullanılarak geliştirilmiş bir web uygulamas
 - [React 19](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Radix UI](https://www.radix-ui.com/)
+- [shadcn](https://ui.shadcn.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
