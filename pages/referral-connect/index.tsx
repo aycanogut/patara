@@ -1,7 +1,7 @@
 import Layout from '@/layout';
 
 import ReferralCards from './ReferralCards';
-import ReferralTable from './ReferralTable';
+import ReferralTableWrapper from './ReferralTable/ReferralTableWrapper';
 import ReferralHero from './referral-hero';
 
 function ReferralConnect() {
@@ -13,7 +13,7 @@ function ReferralConnect() {
           <ReferralCards />
         </div>
 
-        <ReferralTable />
+        <ReferralTableWrapper />
       </section>
     </Layout>
   );
