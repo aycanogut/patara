@@ -21,7 +21,7 @@ const mockData = Array.from({ length: 6 }, (_, index) => ({
 
 function ReferralTable() {
   return (
-    <Table className="bg-background-primary border-separate border-spacing-y-2 rounded-2xl border border-transparent p-4">
+    <Table className="bg-background-primary border-separate border-spacing-y-2 rounded-t-2xl border border-transparent px-4">
       <TableHeader>
         <TableRow>
           <TableHead className="font-geist text-text-secondary pointer-events-none p-6 text-xs font-medium tracking-wider uppercase">Account</TableHead>
