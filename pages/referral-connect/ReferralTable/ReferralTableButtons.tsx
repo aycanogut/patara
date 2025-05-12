@@ -12,7 +12,7 @@ function ReferralTableButtons() {
       >
         <DynamicIcon
           name="arrow-left"
-          className="size-4 p-px"
+          className="p-0.5"
         />
       </Button>
 
@@ -23,7 +23,7 @@ function ReferralTableButtons() {
       >
         <DynamicIcon
           name="arrow-right"
-          className="size-4 p-px"
+          className="p-0.5"
         />
       </Button>
     </div>
