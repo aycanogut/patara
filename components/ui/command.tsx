@@ -63,7 +63,7 @@ function CommandList({ className, ...props }: ComponentProps<typeof CommandPrimi
   return (
     <CommandPrimitive.List
       data-slot="command-list"
-      className={cn('max-h-[300px] scroll-py-1 overflow-x-hidden overflow-y-auto', className)}
+      className={cn('max-h-[18.75rem] scroll-py-1 overflow-x-hidden overflow-y-auto', className)}
       {...props}
     />
   );
