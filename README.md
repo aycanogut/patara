@@ -12,13 +12,30 @@ Patara, modern web teknolojileri kullanılarak geliştirilmiş bir web uygulamas
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- [Next.js 15.3.2](https://nextjs.org/)
+- [Next.js 15](https://nextjs.org/)
 - [React 19](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn](https://ui.shadcn.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+## 📁 Proje Yapısı
+
+patara/
+├── components/     # Yeniden kullanılabilir UI bileşenleri
+├── layout/        # Sayfa düzeni bileşenleri
+├── lib/          # Yardımcı fonksiyonlar ve utilities
+├── pages/        # Next.js sayfa bileşenleri
+├── public/       # Statik dosyalar
+├── styles/       # Global stil dosyaları
+├── .next/        # Next.js build çıktıları
+└── node_modules/ # Bağımlılıklar
+
+## 📋 Gereksinimler
+
+- Node.js v20.x veya üzeri
+- pnpm paket yöneticisi
 
 ## 📦 Kurulum
 
@@ -62,6 +79,3 @@ Kod kalitesini kontrol etmek için:
 pnpm lint
 ```
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
