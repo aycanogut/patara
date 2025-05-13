@@ -22,6 +22,7 @@ Patara, modern web teknolojileri kullanılarak geliştirilmiş bir web uygulamas
 
 ## 📁 Proje Yapısı
 
+```
 patara/
 ├── components/     # Yeniden kullanılabilir UI bileşenleri
 ├── layout/        # Sayfa düzeni bileşenleri
@@ -31,6 +32,7 @@ patara/
 ├── styles/       # Global stil dosyaları
 ├── .next/        # Next.js build çıktıları
 └── node_modules/ # Bağımlılıklar
+```
 
 ## 📋 Gereksinimler
 
